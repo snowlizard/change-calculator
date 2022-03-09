@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputs{
+    width: 97%;
+    height: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: silver;
+    border-radius: 10px;
+}
+
+#dollar-div{
+    width: 97%;
+    height: 25%;
+    text-align: center;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels{
+    font-size: 1.8em;
+}
+
+#change-div{
+    display: flex;
+    flex-flow: row wrap;
+    width: 97%;
+    height: 25%;
+    justify-content: space-around;
+    background: silver;
+    border-radius: 10px;
+}
+
+#change-div > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
